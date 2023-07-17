@@ -2,7 +2,6 @@
 ### REST API service for calculating the cost of insurance depending on the type of load and the declared value.
 
 ---
-
 ## Setup:
 1. Change credentials in config.py:
 ``` python
@@ -26,7 +25,7 @@
 ``` bash
  docker-compose up -d
 ```
-
+---
 ## Usage:
 - Send json package to http://somedomain/rate to update insurance cost.
 ### Example:
