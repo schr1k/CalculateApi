@@ -12,16 +12,12 @@
 2. Clone this repository:
 ``` bash
  git clone https://github.com/schr1k/CalculateApi.git .
-``` 
-3. Install all necessary packages:
-``` bash
- pip install -r requirements.txt
 ```
-4. Build docker image:
+3. Build docker image:
 ``` bash
  docker-compose build
 ```
-5. Run docker container:
+4. Run docker container:
 ``` bash
  docker-compose up -d
 ```
