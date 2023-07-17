@@ -3,15 +3,15 @@
 
 ---
 ## Setup:
-1. Change credentials in config.py:
+1. Clone this repository:
+``` bash
+ git clone https://github.com/schr1k/CalculateApi.git .
+```
+2. Change credentials in config.py:
 ``` python
  POSTGRES_USERNAME = 'postgres'  # Your postgres username
  POSTGRES_PASSWORD = 'postgres'  # Your postgres password
  POSTGRES_DB = 'postgres'  # Database name
-```
-2. Clone this repository:
-``` bash
- git clone https://github.com/schr1k/CalculateApi.git .
 ```
 3. Build docker image:
 ``` bash
